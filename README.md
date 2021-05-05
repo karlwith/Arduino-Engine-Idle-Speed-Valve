@@ -1,4 +1,4 @@
-# Arduino-Idle-Control-Valve
+# Arduino-Engine-Idle-Speed-Valve
 Code and schematic used to actuate a solenoid valve used to regulate the idle speed of an engine. Project inspiration was to replace the failed and unservicable stock idle control system from a 1985 BMW E30 318i with the M10B18 engine. Control logic is governed by the analog signal from the coolant temperature thermistor. 
 
 Further work in progress includes replicating the Arduino UNO system on a perma proto circuit board, using a ATmega328 microcontroller, 16MHz clock crystal, etc to create a lower profile embedded system.
