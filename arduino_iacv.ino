@@ -12,6 +12,7 @@ void setup() {
   pinMode(piezoPin, OUTPUT);
   pinMode(thermistorPin, INPUT);
   digitalWrite(relayPin, HIGH);
+  // startup feedback
   tone(piezoPin, 440, 125); delay(125);
   tone(piezoPin, 493, 125); delay(125);
   tone(piezoPin, 659, 250); delay(250);
