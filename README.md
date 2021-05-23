@@ -12,6 +12,6 @@ Further work in progress includes replicating the Arduino UNO system on a perma 
 
 Current Arduino UNO Implimentation
 
-![Picture1](https://user-images.githubusercontent.com/65951397/119221767-35308d80-bb34-11eb-890b-dccbf96e1cd3.png)
+![Picture1](https://user-images.githubusercontent.com/65951397/119247626-842b0100-bbce-11eb-85ee-6f16e25ac4de.png)
 
 Planned ATmega328P Implementation (using Perma Proto board)
