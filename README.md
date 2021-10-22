@@ -6,12 +6,12 @@ Given the car battery of ~12V and Arduino running on 5V, a voltage regulator was
 Initially, the cold engine idle speed with the valve open was 850rpm leading to a warm engine idle of 1400rpm which was then throttled by the closed valve down to 1100rpm. 
 Through testing the orifice inside the solenoid valve was relaxed from 2.5mm to 3.5mm to achieve an ideal cold and warm engine idle speed of 850rpm.
 
-Further work in progress includes replicating the Arduino UNO system on a perma proto circuit board, using a ATmega328 microcontroller, 16MHz clock crystal, etc to create a lower profile embedded system.
+Further work could involve replicating the Arduino UNO system on a perma proto circuit board, using a ATmega328 microcontroller, 16MHz clock crystal, etc to create a lower profile embedded system.
 
 ## Current Arduino UNO Implementation
 ![circuit (1)](https://user-images.githubusercontent.com/65951397/117573018-146e3e00-b119-11eb-919d-5638da6f2ca9.png)
 
-## Planned ATmega328P Implementation (using an Adafruit Perma Proto board)
+## Prospective ATmega328P Implementation (using an Adafruit Perma Proto board)
 ![Picture2](https://user-images.githubusercontent.com/65951397/122893256-81682b00-d389-11eb-8bd7-683dc0f146b7.png)
 
 
