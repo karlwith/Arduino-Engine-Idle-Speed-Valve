@@ -26,7 +26,7 @@ void loop() {
   Vo_2 = analogRead(thermistorPin);
   delay(1500);
   Vo_3 = analogRead(thermistorPin);
-  Vo = (Vo_1 + Vo_2 + Vo_3) / 3;            // average 3 readings to filter noise
+  Vo = (Vo_1 + Vo_2 + Vo_3) / 3;           // average 3 readings to filter noise
   if (Vo < overheating) {
     overheatingAlert();
   }
@@ -36,7 +36,7 @@ void loop() {
 }
 
 void closeValve() {
-  tone(piezoPin, 659, 125); delay(125);     // melody to alert driver of impending valve closure
+  tone(piezoPin, 659, 125); delay(125);    // melody to alert driver of impending valve closure
   tone(piezoPin, 493, 125); delay(125);
   tone(piezoPin, 440, 2000); delay(2000);
   digitalWrite(relayPin, LOW);
@@ -44,6 +44,6 @@ void closeValve() {
 }
 
 void overheatingAlert() {
-  tone(piezoPin, 440, 20000);               // aleting noise to alert driver engine is overheating
+  tone(piezoPin, 440, 20000);              // aleting noise to alert driver engine is overheating
   jobDone = true;
 }
