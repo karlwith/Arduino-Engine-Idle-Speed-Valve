@@ -1,5 +1,5 @@
-int piezoPin = 12;                        //  piezo speaker pin
-int relayPin = 2;                         //  relay for solenoid pin
+int piezoPin = 12;                        // piezo speaker pin
+int relayPin = 2;                         // relay for solenoid pin
 int thermistorPin = A5;                   // thermistor pin
 int Vo_1, Vo_2, Vo_3;                     // signal readings
 int Vo;                                   // filtered signal
