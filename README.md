@@ -11,8 +11,9 @@ Further work could involve replicating the Arduino UNO system on a perma proto c
 ### Current Arduino UNO Implementation
 ![ardui](https://user-images.githubusercontent.com/65951397/139397416-2b1763c2-ce0d-44ad-a502-f11411873f03.jpg)
 
+### Power Supply and Solenoid Circuit
+![psusolen](https://user-images.githubusercontent.com/65951397/139397486-425b66dc-11bf-48cd-9fb8-7cdb25bcbacd.jpg)
+
 ### Prospective ATmega328P Implementation (using an Adafruit Perma Proto board)
 ![atmega328](https://user-images.githubusercontent.com/65951397/139399172-c2623541-a092-42e5-b7e1-81e9401dbbfd.jpg)
 
-### Power Supply and Solenoid Circuit
-![psusolen](https://user-images.githubusercontent.com/65951397/139397486-425b66dc-11bf-48cd-9fb8-7cdb25bcbacd.jpg)
